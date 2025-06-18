@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+
+/* 共通部分
+------------------------------- */
+
+html,body {
+  overflow-x: hidden;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #4c4993;
+}
+
+main {
+    max-width: 1100px;
+    margin: 10em auto;
+    padding: 0 5%;
+    background-color: #f4f5f1;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: .25em 0;
+  margin-top: 100px;
+  margin-bottom: 1em;
+}
+
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+
+
+}
+
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 2%;
+
+}
+
+
+
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+
+
+h2 {
+    color: #4c4993;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: #4c4993;
+    font-size: 2em;
+    margin: 20px;
+}
+
+p {
+    color: #4c4993;
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+
+
+/* HEAD
+------------------------------- */
+
+.page-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#head {
+    background-image: url(../images/background.png);
+    min-height: 100vh;
+    /* margin-bottom: 20em; */
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    background-color: #4c4993;
+    border-radius: 10px 0px 0px 10px;
+    margin: 20px 0px 20px 10px;
+}
+
+.main-nav a {
+    color: #A1CDC4;
+}
+
+.main-nav li {
+    display: flex;
+    justify-content: center;
+    margin: 30px 60px 30px 40px;
+}
+
+
+.head-title {
+    position: absolute;
+    bottom: -190px;
+    font-size: 15em;
+    font-weight: bold;
+    color: #A1CDC4;
+    line-height: 1.1;
+    text-align: left;
+    text-shadow: -20px 0px 0 #4c4993;
+}
+
+
+
+
+
+/* MAIN
+------------------------------- */
+
+/* about */
+
+#sec1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.about img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+
+.about-text {
+    text-align: left;
+    padding: 50px 0 50px 0 ;
+    
+}
+
+
+
+/* skill */
+
+#sec2 {
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 80px 4%;
+}
+
+
+
+.skill-li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.skill-li img {
+    max-width: 100%;
+    padding-left: 30px;
+}
+
+.item {
+    padding: 20px;
+}
+
+#sec2 p {
+    text-align: center;
+}
+
+
+
+
+
+
+/* works */
+
+#sec3 {
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 80px 4%;
+}
+
+
+#sec3 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 2em;
+}
+
+
+.works-li {
+    list-style: none;
+    display: grid;
+    width: fit-content;
+    column-gap: 2em;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+    margin: 0 auto;
+    
+}
+
+
+
+/* contact */
+
+
+#sec4 {
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 80px 4%;
+}
+
+
+form div {
+    margin: 0 auto;
+
+
+}
+
+label {
+    font-size: 1.125rem;
+    color: #4c4993;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+
+    display: flex;
+    justify-content: center;
+
+    background: rgba(255,255,255,.5);
+    border: 1px #4c4993 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+textarea {
+    width: 100%;
+    max-width: 300px;
+    height: 6rem;
+    margin-bottom: 30px;
+}
+
+
+input[type="submit"] {
+    display: block;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    color: #4c4993;
+    background-color: #bfc9eb;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+    margin: 0 auto 100px;
+}
+

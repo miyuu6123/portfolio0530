@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="js/script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+    </style>
+
+    <title>Miyuu Portfolio</title>
+
+</head>
+
+
+<body>
+
+
+
+    <div id="head" class="big-bg">
+        <header class="page-header">
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#sec1">about</a></li>
+                    <li><a href="#sec2">skill</a></li>
+                    <li><a href="#sec3">works</a></li>
+                    <li><a href="#sec4">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="head-content">
+            <h1 class="head-title">Miyuu<br>Portfolio</h1>
+        </div><!-- /.home-content -->
+    </div><!-- /#head -->
+
+
+    <main>
+
+
+        <section id="sec1">
+            <div class="wrapper">
+
+                <h2>ー about me ー</h2>
+
+                <div class="about">
+
+                <img src="./images/photo.jpeg">
+
+                <div class="about-text">
+
+                    <h3>石森美憂</h3>
+
+                    <p>2004年生まれ<br>スーパーITエンジニア専攻</p>
+
+                    <p>現在3年生、高校在学中にIT業界に興味を持ち
+                        専門学校へ入学。<br>
+                        HTML/CSS/JavaScriptなどのWeb系の言語や、Photoshop/IllustratorなどのAdobeのツールを用いてデザインを勉強中。</p>
+
+                    <p>趣味：料理、動画視聴、ゲーム etc...<br>
+                        好きなもの：スイーツ、ディズニー</p>
+
+                </div><!-- about-text -->
+                </div><!-- about -->
+            </div><!-- wrapper -->
+        </section><!-- /#sec1 -->
+
+
+        <section id="sec2">
+            <h2>ー skill ー</h2>
+
+            <ul class="skill-li">
+            <div class="item">
+                <li><img src="images/css-icon.png" alt="css-icon"></li>
+                <p>★★★☆☆</p>
+            </div>
+                <div class="item">               
+                <li><img src="images/js-icon.png" alt="js-icon"></li>
+                <p>★★★☆☆</p>
+            </div> 
+            <div class="item">
+                <li><img src="images/photoshop-icon.png" alt="photoshop-icon"></li>
+                <p>★★★☆☆</p>
+                </div>
+            <div class="item">
+                <li><img src="images/illustrator-icon.png" alt="illustrator-icon"></li>
+                <p>★★★☆☆</p>
+                </div>
+            <div class="item">
+                <li><img src="images/figma-icon.png" alt="figma-icon"</li>
+                <p>★★☆☆☆</p>
+            </div>
+            </ul>
+
+            <p>他にもExcel、Poworpoint、python、phpを勉強中です！</p>
+
+        </section><!-- /#sec2 -->
+
+
+
+
+        <section id="sec3">
+            <h2>ー works ー</h2>
+
+            <ul class="works-li">
+                <li><a href="WCBcafe/index.html"><img src="images/WCBcafe.png" alt="WCBcafe"></a></li>
+                <li><a href="wcbfc/index.html"><img src="images/WCBfc.png" alt="WCBfc"></a></li>
+                <li><a href="photo-scrollAnimation/index.html"><img src="images/photo-scrollAnimation.png"
+                            alt="photo-scrollAnimation"></a></li>
+                <li><a href="countupgame/index.html"><img src="images/countupgame.png" alt="countupgame"></a></li>
+            </ul>
+
+
+        </section><!-- /#sec3 -->
+
+
+
+        <section id="sec4">
+
+            <h2>ー contact ー</h2>
+
+            <div class="form-box">
+            <form action="#">
+                <div class="box">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+
+                <div class="box">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+
+                <div class="box">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="your-message"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="送信">
+            </form>
+        </div>
+        </section><!-- /#sec3 -->
+    </main>
+
+</body>
+
+</html>
